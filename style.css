@@ -3,10 +3,6 @@ html {
     transition: ease-in 0.1s;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
 .container {
     padding-left: 10%;
     padding-top: 10%;
@@ -14,7 +10,7 @@ body {
 
 .container h1{
     width: 300px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-weight: 500;
     font-size: 45px;
     line-height: 48px;
@@ -23,7 +19,7 @@ body {
 .container p{
     width: 80%;
     max-width: 500px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -44,7 +40,7 @@ hr {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Small Light';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -64,7 +60,7 @@ hr {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -95,7 +91,7 @@ hr {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -119,7 +115,7 @@ hr {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -164,7 +160,7 @@ html {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -196,7 +192,7 @@ html {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -226,7 +222,7 @@ a:hover {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', "Apple Color Emoji Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
