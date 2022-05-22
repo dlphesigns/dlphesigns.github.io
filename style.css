@@ -1,0 +1,256 @@
+html {
+    background-color: #fafafa;
+    transition: ease-in 0.1s;
+}
+
+
+.container {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.container h1{
+    width: 300px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 48px;
+    color: #000000;
+}
+.container p{
+    width: 80%;
+    max-width: 500px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #605E5C;
+}
+
+hr {
+   max-width: 500px;
+    width: 80%;
+   float: left; 
+   color: #605E5C;
+   opacity: 50%;
+}
+
+.footer {
+    float: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Small Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    kerning: 2px;
+    color: #605E5C;
+
+}
+
+.footer img {
+    margin-left: 12px;
+    filter: invert(38%) sepia(6%) saturate(183%) hue-rotate(349deg) brightness(91%) contrast(90%);
+}
+
+.mainlink {
+    background-color:#005FB8;
+    align-items: center;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border-radius: 4px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 0.5px solid #146CBE;
+    position: absolute;
+    left: 10.2%;
+    margin-top: 28px;
+    transition: ease-in 0.1s;
+}
+
+.mainlink:hover {
+    background-color: #196EBF;
+  }
+
+.mainlink img{
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(196deg) brightness(103%) contrast(103%);
+}
+
+.discord {
+    background-color:#FDFDFD;
+    align-items: center;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border-radius: 4px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    border: 0.5px solid #EBEBEB;
+    position: absolute;
+    left: 10.2%;
+    margin-top: 74px;
+    transition: ease-in 0.1s;
+}
+
+.discord img {
+    margin-right: 8px;
+}
+
+.email {
+    background-color:#FDFDFD;
+    align-items: center;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border-radius: 4px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    border: 0.5px solid #EBEBEB;
+    position: absolute;
+    left: 10.2%;
+    margin-top: 119px;
+    transition: ease-in 0.1s;
+}
+
+a:hover {
+    background-color: #f9f9f9;
+  }
+
+.email img{
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .container h1{
+    width: 300px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+html {
+    background-color: #212121;
+}
+
+
+.mainlink {
+    background-color:#62CDFE;
+    align-items: center;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border-radius: 4px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.15);
+    border: 0.5px solid #54B0DA;
+    position: absolute;
+    left: 10.2%;
+    margin-top: 28px;
+    transition: ease-in 0.1s;
+}
+
+.mainlink:hover {
+    background-color: #5CBDE9;
+  }
+
+.mainlink img{
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(297deg) brightness(96%) contrast(104%);
+}
+
+.discord {
+    background-color:#2F2F2F;
+    align-items: center;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border-radius: 4px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.15);
+    border: 0.5px solid #363636;
+    position: absolute;
+    left: 10.2%;
+    margin-top: 74px;
+    transition: ease-in 0.1s;
+}
+
+.discord img {
+    margin-right: 8px;
+    filter: invert(99%) sepia(2%) saturate(2095%) hue-rotate(161deg) brightness(118%) contrast(100%);
+}
+
+a:hover {
+    background-color: #3D3D3E;
+  }
+
+.email {
+    background-color:#2F2F2F;
+    align-items: center;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border-radius: 4px;
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.15);
+    border: 0.5px solid #363636;
+    position: absolute;
+    left: 10.2%;
+    margin-top: 119px;
+    transition: ease-in 0.1s;
+}
+
+.email img{
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    filter: invert(99%) sepia(2%) saturate(2095%) hue-rotate(161deg) brightness(118%) contrast(100%);
+}
+
+.container p{
+    color: #bebebe;
+}
+
+.footer {
+    color: #938F8C
+}
+  }
+
