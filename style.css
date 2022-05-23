@@ -10,7 +10,7 @@ html {
 
 .container h1{
     width: 300px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', 'Courier New', monospace;
     font-weight: 500;
     font-size: 45px;
     line-height: 48px;
@@ -19,7 +19,7 @@ html {
 .container p{
     width: 80%;
     max-width: 500px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -40,7 +40,7 @@ hr {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Small Light';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Small Light', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -60,7 +60,7 @@ hr {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -91,7 +91,7 @@ hr {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -115,7 +115,7 @@ hr {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -142,7 +142,7 @@ a:hover {
 @media (prefers-color-scheme: dark) {
     .container h1{
     width: 300px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Display Semibold', 'Courier New', monospace;
     font-weight: 500;
     font-size: 45px;
     line-height: 48px;
@@ -160,7 +160,7 @@ html {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -192,7 +192,7 @@ html {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -222,7 +222,7 @@ a:hover {
     padding-block: 4px 6px;
     padding-inline: 11px;
     border-radius: 4px;
-    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text';
+    font-family: 'Segoe UI Variable', 'Segoe UI Variable Text', 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
