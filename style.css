@@ -10,7 +10,7 @@ html {
 
 .container h1{
     width: 300px;
-    font-family: 'Segoe UI Variable Display Semibold', 'Helvetica', sans-serif;
+    font-family: 'Segoe UI Variable Display Semibold', sans-serif;
     font-weight: 500;
     font-size: 45px;
     line-height: 48px;
