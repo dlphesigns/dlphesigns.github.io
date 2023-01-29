@@ -15,11 +15,11 @@
         <div class="name">
             <a href="https://www.youtube.com/watch?v=-uAZdIJIl8o"><img src="img/Vector 5.png" style="width: 40px;"></a>
             <h1>AstroX809</h1>
-            <li>
-                <li><a href="index.html">about</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="projects.html">projects</a></li>
-            </li>
+            <div>
+                <a href="index.html">about</a>
+                <a href="blog.html">blog</a>
+                <a href="projects.html">projects</a>
+            </div>
             <hr align="left">
             <h4 style="line-height: 25px;">Hey there! I am AstroX809,</h4>
             <p>A UI/UX Designer and Material Artist. I create concepts that are Microsoft-related. I also create PBR Materials to use them for my Personal Projects.</p>
@@ -41,12 +41,59 @@
     </div>
 </body>
 <style>
-  .name > li {
-    display: inline;
+  .name > div {
+    margin-top: 10px;
   }
+
+  .name > div > a {
+    display: inline;
+    padding: 4%;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+  .name > div a:hover {
+    display: inline;
+    background-color: black;
+    padding: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
   .links > li {
     display: inline;
   }
 
+  a:link {
+    text-decoration: none; 
+  }
+
+
+  a:visited {
+    text-decoration: none;
+  }
+
+
+  a:hover { 
+    text-decoration: none; 
+  }
+
+
+  a:active {
+    text-decoration: none;
+  }
 </style>
 </html>
